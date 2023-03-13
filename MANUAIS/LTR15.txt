@@ -1,0 +1,262 @@
+TESTANDO OS COMPONENTES
+LAVADORA DE ROUPAS ELECTROLUX MODELO LTR 15
+BLOG NILTRAN.COM – http://www.niltran.com
+Olá amigos do blog Niltran.com.
+Estou de volta com todo o gás para postar novos conteúdos. Abaixo estou postando os procedimentos para testes
+dos principais componentes da lavadora de roupas Electrolux modelo LRT-15.
+A seguir também vou postar um passo a passo de como desmontar a lavadora por completo.
+No final do post, você encontrará o link para fazer o download do conteúdo em PDF para poder imprimir e
+posteriormente consultar para ler com mais calma. Vamos ao que interessa.
+1. CARTA DE TEMPO LTR15
+
+1.1 Descrição das funções de lavagem para o modelo LTR15
+
+A lavadora de roupas é constituída basicamente de um gabinete, topo, conjunto transmissão, tanque e cesto. A
+entrada de água na lavadora ocorre através da válvula de entrada da água.
+Ao conectar o plugue na tomada, o painel permanece apagado e o atuador de acoplamento gira uma volta para
+identificar se a lavadora está acoplada para centrifugar ou agitar. Se, por algum motivo, a lavadora não receber esta
+informação, ela fica desligada, dando a percepção de “Não Liga”.
+Quando o produto é ligado e um programa é selecionado, ao iniciar a programação o produto aciona a válvula de
+entrada de água principal e a chave seletora motorizada entra em funcionamento até o inicio do programa, quando
+o motor entra em funcionamento oscilante. O atuador de acoplamento muda de posição (de livre para travado)
+fazendo com que o mecanismo fique acoplado, permitindo que o cesto gire em sentido horário para melhor
+distribuição das roupas e distribuição do sabão.O motor permanece em movimento por 1 min e 45 seg. e, em
+seguida, faz um movimento oscilante, muda o atuador de posição (de travado para livre), liga a válvula auxiliar,
+aguarda que termine o enchimento (sinal do pressostato) e entra no programa de agitação com movimento horário
+e anti-horário. A água chega então à gaveta de distribuição, onde dilui o sabão, e cai sobre a roupa. Após os ciclos
+de agitação e molho, a água é drenada, a tampa é travada e inicia-se o processo de enxágüe, onde a lavadora inicia
+a primeira centrifugação, durante esta primeira centrifugação a lavadora admite água limpa para melhorar o
+enxágüe. A Lavadora admite, então, água mais amaciante, faz o movimento de agitação e drena a água para iniciar
+a segunda centrifugação. Ao final da segunda centrifugação (final do programa) a roupa está pronta para ir à
+secadora ou ser estendida.
+
+Painel frontal:
+
+5. TESTE DE SAÍDA DE CARGA PARA OS COMPONENTES LTR15
+
+Obs.: Esses procedimentos de teste devem ser feitos depois dos testes da chave seletora, certificando-se que a
+mesma está funcionando corretamente.
+
+Com o produto energizado na tomada, independentemente da tampa estar fechada ou aberta e do programa
+selecionado, tem que haver tensão nominal do produto nos pontos abaixo:
+5.1 Teste de alimentação da placa CN.01:
+Meça a tensão entre os fios preto e azul/vermelho do conector CN.01. Se não houver tensão nesses pontos há falha
+no cabo elétrico/ rede elétrica ou tomada de energia.
+
+5.2 Testes de saída de tensão para a válvula principal:
+Entre no modo auto-teste na posição de teste da válvula principal.
+Deve haver tensão nominal entre os fios preto do conector CN.01 e cinza do conector CN.02.
+
+Se não houver tensão nestes pontos há falha na placa eletrônica.
+
+5.3 Teste de saída de tensão para a válvula do amaciante:
+Entre no modo auto-teste na posição de teste da válvula do amaciante.
+Deve haver tensão nominal do produto nos seguintes pontos:
+
+Se não houver tensão nestes pontos há falha na placa eletrônica.
+
+5.4 Teste de saída de tensão para o motor no sentido horário:
+Entre no modo auto-teste na posição de teste do motor no sentido horário.
+Deve haver tensão nominal oscilante do produto nos seguintes pontos:
+
+Se não houver tensão nestes pontos há falha na placa eletrônica.
+5.5 Teste de saída de tensão para o motor no sentido anti-horário:
+Entre no modo auto-teste na posição de teste do motor no sentido anti-horário.
+Deve haver tensão nominal oscilante do produto nos seguintes pontos:
+
+Se não houver tensão nestes pontos há falha na placa eletrônica.
+
+5.6 Teste de saída de tensão para a eletrobomba de drenagem:
+Entre no modo auto-teste na posição de teste da eletrobomba de drenagem.
+Deve haver tensão nominal oscilante do produto nos seguintes pontos:
+
+Se não houver tensão nestes pontos há falha na placa eletrônica.
+5.7 Teste de saída de tensão para o atuador de acoplamento:
+Entre no modo auto-teste na posição de teste do atuador de acoplamento.
+Deve haver tensão nominal oscilante do produto nos seguintes pontos: obs.: só haverá tensão no momento do
+acoplamento):
+
+Se não houver tensão nestes pontos há falha na placa eletrônica.
+
+5.8 Teste de saída de tensão para a chave seletora motorizada:
+Entre no modo auto-teste na posição de teste da chave seletora motorizada.
+Deve haver tensão nominal oscilante do produto nos seguintes pontos:
+
+Se não houver tensão nestes pontos há falha na placa eletrônica.
+
+5.9 Teste de saída de tensão para a válvula de auto-limpeza:
+Entre no modo auto-teste na posição de teste da válvula de auto-limpeza.
+Deve haver tensão nominal oscilante do produto nos seguintes pontos:
+
+Se não houver tensão nestes pontos há falha na placa eletrônica.
+
+6. LIGAÇÃO DOS COMPONENTES DIRETO PELO CONECTOR DA PLACA LTR15:
+
+Obs.: faça estes procedimentos de teste após ter feito os testes da chave seletora motorizada e chave seletora
+iluminada, certificando-se que as mesmas não estão defeituosas.
+Se o componente não funcionar: componente defeituoso ou rede elétrica interrompida.
+
+7. TESTE DE SAÍDA DE TENSÃO DO SENSOR DE VELOCIDADE DO MOTOR LTR15
+Produto energizado na tomada
+Deve haver tensão de 5 Vcc nos seguintes pontos:
+Meça na escala de tensão continua ± 5vcc.
+
+8. DESCRIÇÃO E TESTE DOS PRINCIPAIS COMPONENTES:
+
+8.1 BLOCO DA PORTA (INTERRUPTOR DA TAMPA)
+O bloco da porta é um dispositivo elétrico composto de um interruptor elétrico mais um termoatuador e está
+localizado no lado esquerdo inferior do topo, sendo acionado por um acionador fixado na tampa, no lado esquerdo
+frontal.
+O bloco da porta está conectado á placa eletrônica e abre o circuito quando a tampa é aberta, parando o
+funcionamento da lavadora.
+- O dispositivo de segurança garante que a lavadora somente funcione com a tampa fechada. Se durante o processo
+de agitação a tampa for aberta a lavadora pára. Para continuar o programa basta fechar a tampa.
+- Na centrifugação não é possível a abertura da tampa. Por motivo de segurança a tampa permanece travada.
+
+8.2 PRESSOSTATO ELETROMECÂNICO:
+
+Descrição:
+O pressostato controla os níveis de água (Mínimo, Baixo Tênis, Médio, Alto e Máximo/Endredon), ou seja, a
+quantidade de água que deve entrar na lavadora.
+Funcionamento:
+Enquanto o nível selecionado não é atingido, a válvula de entrada de água permanece energizada. Quando se
+atinge o nível selecionado no botão “Nível de Água”, o pressostato desliga a válvula de entrada de água e inicia o
+programa de lavagem.
+O pressostato está localizado na parte interna do topo da lavadora, fixado no painel de controle. É composto por
+duas câmaras, superior e inferior, separadas por um diafragma. A câmara superior contém contatos rápidos
+conectados no centro do diafragma por um mecanismo de nível. A câmara inferior (câmara de ar) é
+hermeticamente fechada e é ligada através de um pequeno tubo ao bulbo do pressostato. Quando a água é admitida
+na lavadora, o nível de água sobe e, consequentemente, a pressão de ar na câmara inferior aumenta. O aumento de
+pressão sobre o diafragma força-o de encontro aos contatos rápidos, atuando sobre estes conforme a pressão.
+Se ocorrer vazamento de ar no diafragma, na câmara de pressão, no tubo ou no bulbo, não será exercida pressão
+sobre o diafragma e haverá transbordamento de água na lavadora.
+
+8.3 VÁLVULA DE ENTRADA D'ÁGUA:
+Descrição:
+É o dispositivo elétrico que, quando acionado, permite a entrada de água na lavadora. É conectada, externamente à
+mangueira de entrada de água e internamente à caixa de distribuição.
+A válvula possui 03 solenóides que permitem a entrada da água em 03 posições distintas conforme abaixo:
+Solenóide 01 – A água entra na canaleta de sabão para lavagem e alvejante.
+Solenóide 02 – A água entra por uma mangueira direta até a capa tanque.
+
+Solenóide 03 – A água entra na canaleta de amaciante (enxágüe).
+Obs.: Durante o full spray da centrifugação somente o solenóide de sabão é acionado.
+
+Válvula desligada:
+Conforme a figura a seguir, verifica-se que a agulha pressiona o diafragma através da ação da mola. O diafragma,
+na sua posição de repouso, não permite a passagem de água. Se a pressão da água for muito grande, haverá a
+passagem de água, pois a pressão da mola não é suficiente para manter o diafragma fechado.
+O filtro tela existe para impedir que algum resíduo fique retido no diafragma. Caso isto aconteça, a válvula irá
+permitir a passagem da água.
+
+Válvula ligada:
+Quando um dos solenóides da válvula é energizado, cria-se um campo magnético que atua na agulha. A agulha é
+então pressionada contra a mola, que se contrai. A pressão da água é suficiente para empurrar o diafragma,
+permitindo a passagem da água. Se a pressão da água for muito pequena, mesmo com a mola contraída, o
+diafragma não permitirá a passagem da água.
+
+Teste:
+Verifique a continuidade entre os terminais de cada um dos 2 solenóides. O valor da resistência deve estar dentro
+dos valores abaixo:
+
+8.4 BOMBA DE DRENAGEM:
+Descrição:
+A bomba de drenagem é do tipo centrífuga e é movida por um motor síncrono monofásico. É formada basicamente
+pelo rotor, evoluta e hélice.
+O rotor consiste de um imã permanente cujo sentido de rotação pode ser tanto horário como anti-horário. Uma
+característica importante do rotor é que ele pode girar aproximadamente ¼ de volta sem movimentar a hélice. Por
+isso, se a bomba travar devido a um objeto estranho, o rotor deve executar pequenos movimentos horários e antihorários até destravá-lo.
+
+Teste:
+a. Verifique a continuidade entre os terminais da bomba de drenagem. O valor da resistência deve estar entre os
+valores descritos na tabela abaixo.
+b. Com um pouco de água na lavadora e com a bomba no local, verifique se ocorre a drenagem quando a bomba é
+diretamente energizada.
+
+8.5 CAPACITOR:
+Descrição:
+Estas lavadoras possuem um capacitor permanente que auxilia a partida do motor tanto na agitação como na
+centrifugação. O capacitor permanente está ligado em série com o enrolamento do motor e corrige, caso necessário
+(variação de carga no motor), a tensão do motor.
+
+Teste:
+a. Com um multímetro analógico na escala de resistência, conecte as pontas de prova do multímetro no capacitor.
+Verifique se o valor da resistência tende a zero e logo em seguida aumenta até seu valor infinito. Caso a deflexão
+do ponteiro seja muito pequena, deve-se mudar a escala de leitura no multímetro.
+b. Invertendo as pontas de prova do multímetro no capacitor o processo se repete.
+Importante:
+Caso o ponteiro não deflexione ou deflexione e não retorne, o capacitor está defeituoso e deve ser substituído.
+
+8.6 MOTOR:
+Descrição:
+O motor elétrico utilizado nas lavadoras é do tipo assíncrono e funciona com o capacitor permanentemente ligado
+ao motor. A inversão no sentido de rotação é comandada pela placa de potência.
+
+Resistência ôhmica das bobinas:
+
+Teste:
+Para testar a condição do motor da lavadora, deve-se fazer a ligação direta do mesmo, fazendo-o girar nos dois
+sentidos e observando a sua corrente, conforme descrito a seguir.
+Com o motor em uma bancada, faça as ligações conforme descrito abaixo:
+Agitação:
+Ligue o capacitor entre os fios vermelho e amarelo do motor.
+Ligue a fase no fio branco do motor.
+Ligue então a 2ª fase ou neutro no fio vermelho do motor (gira no sentido horário)
+Para inverter a rotação do motor: ligue a 2ª fase ou neutro no fio amarelo do motor (gira no sentido antihorário).
+Centrifugação:
+A centrifugação ocorre quando o motor gira no sentido anti-horário (visto pelo lado da polia do motor), fazendo
+com que o movimento de rotação vindo do motor seja transmitido pela carcaça da transmissão, não havendo a
+redução proporcionada pelo engrenamento interno e fazendo com que o cesto gire à 720 rpm.
+8.7 PROTETOR DE SOBRECARGA:
+Este componente protege os enrolamentos do motor, desligando-os em caso de sobrecarga elétrica, problemas
+mecânicos ou aquecimento excessivo do motor.
+Temperatura de Atuação: 130 +/- 10ºC
+Temperatura de Desarme: 95 +/- 10ºC
+
+8.8 Placa eletrônica:
+
+A placa eletrônica é responsável pelo acionamento de todos os componentes elétricos na lavadora.
+Placa de potência LTR15
+Tensão de funcionamento: 127 ou 220V
+Código Electrolux: 64800626
+Particularidades de funcionamento:
+• Se a chave seletora (CSI) for operada pelo Consumidor com a lavadora em funcionamento, o ciclo de lavagem
+será interrompido. Após 5 segundos a lavadora voltará a funcionar conforme a nova seleção de programa.
+Tensão da placa (ponte)
+A placa eletrônica desenvolvida para estes modelos está preparada para operar nas duas tensões (127V ou 220V).
+Originalmente a placa é fornecida com uma ponte na posição CN7 da placa, como indicado na figura abaixo.
+Quando a placa está com a ponte instalada, está preparada para operar em 127V. Se a ponte for cortada, a placa
+automaticamente estará preparada para trabalhar em 220V. Portanto, para a substituição da placa nas lavadoras em
+tensão 220V, basta cortar esta ponte no momento da montagem.
+
+Conectores da placa:
+A placa eletrônica possui 5 conectores dividos em:
+1. Conectores de comando:
+Recebem os sinais enviados pelo CN3 (chave seletora motorizada, chave seletora iluminada e placa de indicação
+do nível de potência), CN5 (pressostato), teclas e CN6 (interruptor da tampa).
+Após receber os sinais no conector CN5, o processador da placa interpreta-os e procede ao acionamento das cargas
+nos conectores CN1 e CN2.
+2. Conectores de acionamento da cargas CN1 e CN2:
+Através destes conectores a placa eletrônica aciona as cargas (motor, válvulas, atuador de acoplamento,
+eletrobomba) de acordo com sinais enviados pelos componentes de comando (chave seletora, teclas do painel e
+interruptor da tampa).
+
+3. Conector de alimentação CN1:
+
+Este conector recebe a alimentação da placa na tensão nominal (127 ou 220V).
+
+4. Conector de lógica CN4:
+É utilizado somente pelo fabricante, para instalação do programa de funcionamento da lavadora.
+8.9 ATUADOR DE ACOPLAMENTO:
+Energizando os terminais 1 e 3 e pode-se verificar se o motor do atuador está funcionando.
+
+8.10 SENSOR DE VELOCIDADE DO MOTOR:
+
+É isso ai pessoal.
+Na próxima dica você vai ver como desmontar essa lavadora passo a passo.
+
+Um abraço,
+
+Nilton Neto.
+
+
